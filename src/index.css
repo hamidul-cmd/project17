@@ -5,6 +5,7 @@
 * {
   font-family: "Inter", sans-serif;
 }
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
   --color-black-900: #000000;
